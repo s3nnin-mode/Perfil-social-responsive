@@ -1,0 +1,93 @@
+body {
+    background-color: hsl(0, 0%, 8%);
+    color: white;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "inter";
+}
+
+.container {
+    background-color: hsl(0, 0%, 12%);
+    width: 21%;
+    border-radius: 3%;
+    margin: 1.7rem auto;
+    padding: 25px 35px 15px 35px;
+}
+
+img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+
+.img {
+    text-align: center;
+}
+
+.description {
+    text-align: center;
+    margin-top: 20px;
+}
+
+h1 {
+    color: hsl(0, 0%, 100%);
+    margin: 0;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.description p:first-of-type {
+    color: hsl(75, 94%, 57%);
+    font-weight: 400;
+    margin: 0;
+    padding: 5px;
+}
+
+.description p:last-of-type {
+    font-size: 13px;
+}
+
+.container-links {
+    text-align: center;
+    padding: 2px 0 0 0;
+}
+
+a {
+    width: 90%;
+    height: 38px;
+    margin: 0 auto;
+    color: white;
+    text-decoration: none;
+}
+
+.container-links p {
+    padding: 9px 0;
+    font-weight: 600;
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 6px;
+}
+
+.container-links p:hover {
+    color: hsl(0, 0%, 12%);
+    background-color: hsl(75, 94%, 57%);
+    border-radius: 6px;
+}
+
+.attribution { font-size: 11px; text-align: center;
+}
+
+.attribution a { color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 375px;
+    }
+}
+
+@media (max-width: 1199px) and (min-width: 769px) {
+    .container {
+        width: 1440px;
+    }
+}

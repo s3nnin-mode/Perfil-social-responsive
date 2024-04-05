@@ -14,8 +14,6 @@ body {
     border-radius: 3%;
     margin: 1.7rem auto;
     padding: 25px 35px 15px 35px;
-    display: grid;
-    place-items: center;
 }
 
 img {
